@@ -9,7 +9,6 @@ namespace EF01
         protected void Application_Start()
         {
             Database.SetInitializer<NorthwindDbContext>(null);
-
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
